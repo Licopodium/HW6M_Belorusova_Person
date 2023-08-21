@@ -7,7 +7,9 @@ public class Person {
         private String phoneNumber;
 
 
-    public Person() {this(null, null, 0, null, null, null); }
+    public Person() {
+
+    }
 
         public Person(String firstName, String lastName, int age, String address, String email, String phoneNumber) {
             this.firstName = firstName;
